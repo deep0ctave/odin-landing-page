@@ -19,12 +19,25 @@ nav li {
     display: inline-block;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
 .hero-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 50px 300px;
+}
+
+.hero-container img {
+    height: 200px;
+    width: 600px;
 }
 
 .hero-content {
@@ -39,6 +52,7 @@ nav li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 200px;
 }
 
 .cards-container {
@@ -46,6 +60,7 @@ nav li {
     justify-content: space-around;
     align-items: center;
     gap: 50px;
+    padding: 50px 0px;
 }
 
 .card {
@@ -55,6 +70,11 @@ nav li {
     align-items: center;
 }
 
+.card img {
+    border-radius: 10px;
+    border: 5px solid #2674e0;
+}
+
 .quote-container {
     display: flex;
     flex-direction: column;
@@ -62,6 +82,7 @@ nav li {
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
+    padding: 100px 200px;
 }
 
 .signup-container {
@@ -69,7 +90,10 @@ nav li {
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    color: #1F2937;
+    color: #E5E7EB;
+    border-radius: 10px;
+    margin: 100px 200px;
+    padding: 50px 0px;
 }
 
 .signup-container .left {
@@ -81,4 +105,5 @@ footer {
     text-align: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 20px 0px;
 }
